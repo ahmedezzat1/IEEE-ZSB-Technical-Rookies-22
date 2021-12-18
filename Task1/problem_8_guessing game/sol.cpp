@@ -6,8 +6,8 @@ using namespace std;
 int main()
 {
     int n, guess, cnt = 0;
-    srand(time(0)); //seed random number generator
-    n = rand() % 10 + 1; // random number between 1 and 100
+    srand(time(0)); 
+    n = rand() % 10 + 1; 
     cout << "Enter a guess between 1 and 10 : "<<endl;
     do
     {
