@@ -5,6 +5,7 @@ IEEE ZSB Rookies training
 1- Write a program that calculates the area and the perimeter of a rectangle. The 
 program asks the user for two numbers, each number on a separate line. One of 
 the numbers represents the length and the other represents the width. 
+
 EX: 
 Input: 
 5 
