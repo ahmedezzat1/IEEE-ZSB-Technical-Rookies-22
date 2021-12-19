@@ -10,6 +10,7 @@ EX:
 Input: 
 5 
 6 
+
 Output: 
 30 
 22 
@@ -23,6 +24,7 @@ with a space separating between them.
 EX: 
 Input: 
 15 
+
 Output: 
 2 3 5 7 11 13 
 
@@ -48,6 +50,7 @@ EX:
 Input: 
 3 
 5 8 4 
+
 Output: 
 17 
 17 
@@ -59,6 +62,7 @@ numbers 1 to n inclusive.n will always be greater than 1.
 EX: 
 Input: 
 5 
+
 Output: 
 15
  
@@ -69,6 +73,7 @@ EX:
  
 Input: 
 15 
+
 Output: 
 60 
 Explanation: 
@@ -91,5 +96,6 @@ EX:
  
 Input: 
 8 
+
 Output: 
 0 1 1 2 3 5 8 13 
