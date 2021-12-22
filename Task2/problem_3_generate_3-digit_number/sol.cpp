@@ -25,7 +25,7 @@ int main() {
    int  random = rand() % 1000+100 ;
    int n=random;
    string s= to_string(n);
-   s="132";
+   //s="132";
     int cnt=0;
 
     string a;
