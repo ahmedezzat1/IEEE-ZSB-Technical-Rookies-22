@@ -19,31 +19,33 @@ void file() {
 
 int main() {
    // file();
-    IOS
+   // IOS
 
     srand(time(0));
    int  random = rand() % 1000+100 ;
    int n=random;
    string s= to_string(n);
-   string x;
     int cnt=0;
+
+    string a;
+    cin>>a;
     do {
-        cin>>x;
         int hit=0 , miss=0;
-        
         for (int i = 0; i < 3; ++i) {
             for (int j = 0; j <3 ; ++j) {
-                if (s[i]==x[i] and i==j)
+                if (s[i]==a[i] and i==j)
                     hit++;
-                else if(s[i]==x[i] and i!=j)
+                else if(s[i]==a[i] and i!=j)
                     miss++;
             }
         }
-        cout<< hit <<"hits" <<" ";
-        cout<< miss <<"misses"<<endl;
+        cout<< hit <<" hits" <<" ";
+        cout<< miss <<" misses"<<endl;
         cnt++;
+        cin>>a;
+
     }
-    while (x!=s);
+    while (a!=s);
 
     cout<<cnt<<"guesses"<<endl;
 }
