@@ -25,7 +25,6 @@ int main() {
    int  random = rand() % 1000+100 ;
    int n=random;
    string s= to_string(n);
-   s="427";
    string x;
     int cnt=0;
     do {
